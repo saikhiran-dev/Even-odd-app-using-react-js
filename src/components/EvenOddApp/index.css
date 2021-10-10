@@ -1,0 +1,42 @@
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 310px;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+.even-odd {
+  color: #334155;
+  font-weight: bold;
+}
+.increment-button {
+  padding: 6px 21px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+}
+.description {
+  color: #1e293b;
+  font-size: 10px;
+  font-weight: bold;
+}
